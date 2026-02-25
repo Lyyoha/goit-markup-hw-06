@@ -24,8 +24,9 @@ ul {
 }
 a {
     text-decoration: none;
+    color: inherit;
 }
-.social-links .nav-link {
+.nav-menu-link {
     font-weight: 500;
         font-size: 16px;
     
@@ -34,11 +35,11 @@ a {
         letter-spacing: 0.02em;
         color: #2E2F42;
 }
-.social-links .nav-link:hover,
-.social-links .nav-link:focus {
+.nav-menu-link:hover,
+.nav-menu-link:focus {
         color: #404BBF;
 }
-.addres .addres-one {
+.address-list-link {
     font-weight: 400;
         font-size: 16px;
         /* line-height: 24px; */
@@ -46,14 +47,14 @@ a {
         letter-spacing: 0.02em;
         color: #434455;
 }
-.addres .addres-one:hover,
-.addres .addres-one:focus {
+.address-list-link:hover,
+.address-list-link:focus {
         color: #404BBF;
 }
-.main-page {
+.section-hero {
     background-color: #2E2F42;
 }
-.main-page .title {
+.section-hero-title {
     font-weight: 700;
         font-size: 56px;
     
@@ -63,19 +64,18 @@ a {
         text-align: center;
         color: #FFFFFF;
 }
-.main-page .button {
+.section-hero-button {
     font-weight: 500;
         font-size: 16px;
-        cursor: pointer;
-        /* line-height: 24px; */
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #FFFFFF;
-            background-color: #4D5AE5;
+        cursor: pointer;
+                background: #4D5AE5;
 }
- .main-page .button:hover,
- .main-page .button:focus {
-            background-color: #404BBF;
+ .section-hero-button:hover,
+ .section-hero-button:focus {
+                background: #404BBF;
 }
 footer {
     background-color: #2E2F42;
@@ -111,10 +111,10 @@ footer {
     background: #F4F4FD;
 }
 
-.team-item {
+.our-team-item {
     background-color: #ffffff;
 }
-footer .logo {font-weight: 700;
+.footer-logo {font-weight: 700;
     font-size: 18px;
 
     /* line-height: 21px; */
@@ -123,7 +123,7 @@ footer .logo {font-weight: 700;
     text-transform: uppercase;
     color: #4D5AE5;
 }
-footer .logo-name {
+.footer-logo-name {
     font-weight: 700;
         font-size: 18px;
     
@@ -133,7 +133,7 @@ footer .logo-name {
         text-transform: uppercase;
         color: #F4F4FD;
 }
-footer .text {font-weight: 400;
+.footer-text {font-weight: 400;
     font-size: 16px;
 
     /* line-height: 24px; */
@@ -141,6 +141,6 @@ footer .text {font-weight: 400;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
-.addres {
+.address {
     font-style: normal;
 }
