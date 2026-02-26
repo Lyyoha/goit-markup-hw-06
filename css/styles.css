@@ -156,7 +156,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    row-gap: 24px;
+    gap: 24px
 }
 .our-advantages-item:last-child {
     margin-right: 0;
