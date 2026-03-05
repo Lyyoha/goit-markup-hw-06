@@ -471,8 +471,9 @@ footer {
 }
 .telegram-svg {
     width: 24px;
-    height: 20px;
+    height: 24px;
     fill: #FFFFFF;
+    margin-left: 16px;
 }
 .email-title {
     font-weight: 500;
@@ -492,6 +493,11 @@ footer {
     outline: none;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-right: 24px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .email-input::placeholder {
     font-weight: 400;
@@ -507,19 +513,22 @@ footer {
 }
 .button-subscribe {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     border-radius: 4px;
-        padding: 8px 24px;
-        width: 165px;
-        height: 40px;
-        background: #4D5AE5;
-        border: none;
-        padding: 8px 24px;
-        align-items: center;
-        color: #FFFFFF;
-        cursor: pointer;
-        transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    background: #4D5AE5;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 .button-subscribe:hover,
 .button-subscribe:focus {
@@ -581,6 +590,7 @@ footer {
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
 }
 
 .close-overlay:hover,
