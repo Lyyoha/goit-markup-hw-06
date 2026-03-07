@@ -1,0 +1,14 @@
+.section {
+    padding: 96px 0;
+
+
+
+/* TABLET */
+    @media screen and (min-width: 768px) {
+
+    }
+/* DESKTOP */
+@media screen and (min-width: 1158px) {
+    padding: 120px 0;
+}
+}

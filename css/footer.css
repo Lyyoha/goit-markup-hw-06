@@ -1,0 +1,224 @@
+footer {
+    background-color: #2E2F42;
+}
+
+.footer {
+    padding: 100px 0;
+}
+
+.footer-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    align-items: center;
+
+
+/* TABLET */
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+        justify-content: center;
+
+
+    }
+
+    /* DESKTOP */
+    @media screen and (min-width: 1158px) {
+    align-items: baseline;
+    justify-content: space-between;
+    }
+}
+
+.footer-logo-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+/* TABLET */
+    @media screen and (min-width: 768px) {
+      align-items: flex-start;
+
+
+    }
+
+    /* DESKTOP */
+    @media screen and (min-width: 1158px) {
+    
+    }
+
+}
+
+.footer-logo {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    margin-bottom: 16px;
+}
+
+.footer-logo-span {
+    color: #F4F4FD;
+}
+
+.footer-text {
+    font-weight: 400;
+    max-width: 264px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
+.footer-soc-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+
+/* TABLET */
+    @media screen and (min-width: 768px) {
+        align-items: flex-start;
+
+    }
+
+    /* DESKTOP */
+    @media screen and (min-width: 1158px) {
+       
+    }
+}
+.footer-soc-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-soc-list {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-soc-item {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-soc-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+    background-color: #31D0AA;
+}
+
+.footer-soc-icon {
+    fill: #F4F4FD;
+}
+
+.telegram-svg {
+    width: 24px;
+    height: 24px;
+    fill: #FFFFFF;
+    margin-left: 16px;
+}
+
+.email-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.email-input {
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+    padding-left: 16px;
+    outline: none;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.email-input::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 8px 212px 8px 0px
+}
+
+.email-input:focus {
+    border: 1px solid #31D0AA;
+    color: #ffffff;
+}
+
+.button-subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    background: #4D5AE5;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    min-width: 165px;
+}
+
+.button-subscribe:hover,
+.button-subscribe:focus {
+    background-color: #31D0AA;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+
+
+/* TABLET */
+    @media screen and (min-width: 768px) {
+       flex-direction: row;
+       margin-right: 45px;
+    }
+
+    /* DESKTOP */
+    @media screen and (min-width: 1158px) {
+        
+    }
+}

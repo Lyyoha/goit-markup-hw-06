@@ -1,0 +1,100 @@
+.section-hero {
+        min-width: 320px;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 72px 0;
+        background-color: #2E2F42;
+        background-image: linear-gradient(to bottom,
+                rgb(46 47 66 / 70%),
+                rgb(46 47 66 / 70%)),
+            url(../images/mobile/background.jpg);
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+        min-width: 768px;
+        padding: 112px 0;
+        background-image: linear-gradient(to bottom,
+                    rgb(46 47 66 / 70%),
+                    rgb(46 47 66 / 70%)),
+                url(../images/tablet/hero-image.jpg);
+    }
+/* DESKTOP */
+@media screen and (min-width: 1158px) {
+    background-image: linear-gradient(to bottom,
+                rgb(46 47 66 / 70%),
+                rgb(46 47 66 / 70%)),
+            url(../images/desktop/people-office-laptop.jpg);
+    min-width: 1158px;
+        padding: 188px 0;
+    }
+}
+
+.section-hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+    
+    
+    
+/* TABLET */
+@media screen and (min-width: 768px) {
+            gap: 36px;
+        }
+    
+    
+/* DESKTOP */
+@media screen and (min-width: 1158px) {
+            gap: 48px;
+        }
+}
+
+.section-hero-title {
+    max-width: 216px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+                max-width: 496px;
+                font-size: 56px;
+                line-height: 1.07;
+        }
+
+
+        /* DESKTOP */
+@media screen and (min-width: 1158px) {
+        max-width: 496px;
+        font-size: 56px;
+        line-height: 1.07;
+}
+}
+
+.section-hero-button {
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+    background: #4D5AE5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.section-hero-button:hover,
+.section-hero-button:focus {
+    border: none;
+    background: #404BBF;
+}
