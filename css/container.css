@@ -17,9 +17,29 @@
     
     @media screen and (min-width: 1158px) {
         max-width: 1158px;
+        padding: 0 15px;
     }
 }
 .container-header {
     display: flex;
     justify-content: space-between;
+
+
+/* TABLET */
+    @media screen and (min-width: 768px) {
+        align-items: center;
+    }
+
+
+
+    /* DESKTOP */
+    @media screen and (min-width: 1158px) {
+        
+    }
+    
+    
+    @media screen and (max-width: 767px) {
+        justify-content: space-between;
+        align-items: center;
+    }
 }

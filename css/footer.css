@@ -26,7 +26,8 @@ footer {
     /* DESKTOP */
     @media screen and (min-width: 1158px) {
     align-items: baseline;
-    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 0;
     }
 }
 
@@ -44,7 +45,7 @@ footer {
 
     /* DESKTOP */
     @media screen and (min-width: 1158px) {
-    
+        margin-right: 120px;
     }
 
 }
@@ -89,7 +90,7 @@ footer {
 
     /* DESKTOP */
     @media screen and (min-width: 1158px) {
-       
+        margin-right: 80px;
     }
 }
 .footer-soc-title {
@@ -219,6 +220,6 @@ footer {
 
     /* DESKTOP */
     @media screen and (min-width: 1158px) {
-        
+        margin: 0;
     }
 }

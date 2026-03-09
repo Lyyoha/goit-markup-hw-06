@@ -22,40 +22,84 @@
   </head>
   <body>
     <!-- PAGE HEADER -->
-    <!-- <header class="header">
+    <header class="header">
       <div class="container container-header">
-        <nav class="nav-list">
-          <a href="./index.html" class="logo"
-            >Web<span class="logo-name">Studio</span></a
-          >
-          <ul class="nav-menu">
-            <li class="nav-menu-item">
-              <a class="nav-link current" href="./index.html">Studio</a>
-            </li>
-            <li class="nav-menu-item">
-              <a class="nav-link" href="">Portfolio</a>
-            </li>
-            <li class="nav-menu-item">
-              <a class="nav-link" href="">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <address class="address">
-          <ul class="address-list">
-            <li class="address-list-item">
-              <a class="address-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="address-list-item">
-              <a class="address-link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
+        <a href="./index.html" class="logo"
+          >Web<span class="logo-name">Studio</span></a
+        >
+        <button class="mobile-menu-open" type="button">
+          <svg width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+        <div class="mobile-menu">
+          <button type="button" class="mobile-menu-close-button">
+            <svg width="8" height="8" class="svg-transition">
+              <use href="./images/icons.svg#icon-closeg"></use>
+            </svg>
+          </button>
+          <nav class="nav-container">
+            <ul class="header-list">
+              <li>
+                <a href="./index.html" class="nav-item studio">Studio</a>
+              </li>
+              <li>
+                <a href="" class="nav-item">Portfolio</a>
+              </li>
+              <li>
+                <a href="" class="nav-item">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="mail-tel-social">
+            <address class="header-address">
+              <ul class="address-container">
+                <li>
+                  <a href="mailto:info@devstudio.com" class="mailto-tel"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+110001111111" class="mailto-tel"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <ul class="ul-list-social-team">
+              <li class="li-social-team-items">
+                <a href="" class="link-social">
+                  <svg class="vector-images" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="li-social-team-items">
+                <a href="" class="link-social">
+                  <svg class="vector-images" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="li-social-team-items">
+                <a href="" class="link-social">
+                  <svg class="vector-images" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="li-social-team-items">
+                <a href="" class="link-social">
+                  <svg class="vector-images" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </header> -->
+    </header>
 
     <main>
       <!-- SECTION HERO -->
@@ -320,6 +364,8 @@
                       ./images/desktop/1@2x.jpg 2x
                     "
                     media="(min-width: 1158px)"
+                    width="360"
+                    height="300"
                   />
                   <!-- TABLET -->
                   <source
@@ -328,10 +374,12 @@
                       ./images/tablet/img-1@2x.jpg 2x
                     "
                     media="(min-width: 768px)"
+                    width="356"
+                    height="300"
                   />
                   <img
-                    srcset="./images/desktop/1@2x.jpg"
-                    src="./images/desktop/1.jpg"
+                    srcset="./images/mobile/img-1.jpg"
+                    src="./images/mobile/img-1@2x.jpg"
                     alt="Banking App, App"
                     width="288"
                     height="280"
@@ -359,6 +407,8 @@
                       ./images/desktop/2@2x.jpg 2x
                     "
                     media="(min-width: 1158px)"
+                    width="360"
+                    height="300"
                   />
                   <!-- TABLET -->
                   <source
@@ -367,10 +417,12 @@
                       ./images/tablet/img-2@2x.jpg 2x
                     "
                     media="(min-width: 768px)"
+                    width="356"
+                    height="300"
                   />
                   <img
-                    srcset="./images/desktop/2.jpg"
-                    src="./images/desktop/2@2x.jpg"
+                    srcset="./images/mobile/img-2@2x.jpg"
+                    src="./images/mobile/img-2@2x.jpg"
                     alt="Banking App, App"
                     width="288"
                     height="280"
@@ -397,6 +449,8 @@
                       ./images/desktop/3@2x.jpg 2x
                     "
                     media="(min-width: 1158px)"
+                    width="360"
+                    height="300"
                   />
                   <!-- TABLET -->
                   <source
@@ -405,10 +459,12 @@
                       ./images/tablet/img-3@2x.jpg 2x
                     "
                     media="(min-width: 768px)"
+                    width="356"
+                    height="300"
                   />
                   <img
-                    srcset="./images/desktop/3.jpg"
-                    src="./images/desktop/3@2x.jpg"
+                    srcset="./images/mobile/img-3@2x.jpg"
+                    src="./images/mobile/img-3@2x.jpg"
                     alt="Banking App, App"
                     width="288"
                     height="280"
@@ -435,6 +491,8 @@
                       ./images/desktop/4@2x.jpg 2x
                     "
                     media="(min-width: 1158px)"
+                    width="360"
+                    height="300"
                   />
                   <!-- TABLET -->
                   <source
@@ -443,10 +501,12 @@
                       ./images/tablet/img-4@2x.jpg 2x
                     "
                     media="(min-width: 768px)"
+                    width="356"
+                    height="300"
                   />
                   <img
-                    srcset="./images/desktop/4.jpg"
-                    src="./images/desktop/4@2x.jpg"
+                    srcset="./images/mobile/img-4@2x.jpg"
+                    src="./images/mobile/img-4@2x.jpg"
                     alt="Banking App, App"
                     width="288"
                     height="280"
@@ -473,6 +533,8 @@
                       ./images/desktop/5@2x.jpg 2x
                     "
                     media="(min-width: 1158px)"
+                    width="360"
+                    height="300"
                   />
                   <!-- TABLET -->
                   <source
@@ -481,10 +543,12 @@
                       ./images/tablet/img-5@2x.jpg 2x
                     "
                     media="(min-width: 768px)"
+                    width="356"
+                    height="300"
                   />
                   <img
-                    srcset="./images/desktop/5.jpg"
-                    src="./images/desktop/2@5x.jpg"
+                    srcset="./images/mobile/img-5@2x.jpg"
+                    src="./images/mobile/img-5@2x.jpg"
                     alt="Banking App, App"
                     width="288"
                     height="280"
@@ -511,6 +575,8 @@
                       ./images/desktop/6@2x.jpg 2x
                     "
                     media="(min-width: 1158px)"
+                    width="360"
+                    height="300"
                   />
                   <!-- TABLET -->
                   <source
@@ -519,10 +585,12 @@
                       ./images/tablet/img-6@2x.jpg 2x
                     "
                     media="(min-width: 768px)"
+                    width="356"
+                    height="300"
                   />
                   <img
-                    srcset="./images/desktop/6.jpg"
-                    src="./images/desktop/6@2x.jpg"
+                    srcset="./images/mobile/img-6@2x.jpg"
+                    src="./images/mobile/img-6@2x.jpg"
                     alt="Banking App, App"
                     width="288"
                     height="280"
@@ -616,97 +684,93 @@
     <!-- OVERLAY -->
     <div class="modal-overlay">
       <div class="modal">
-        <button class="close-overlay" type="button">
-          <svg class="close-icon" width="8" height="8">
+        <button type="button" class="modal-close">
+          <svg width="8" height="8" class="svg-transition">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <p class="title-overlay">
-          Leave your contacts and we will call you back
-        </p>
 
-        <form class="form-overlay" autocomplete="off">
-          <div class="input-box">
-            <label class="modal-label" for="user-name"> Name</label>
-            <div class="input-wrapper">
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+
+        <form>
+          <div class="form-div">
+            <label for="user-name" class="modal-label">Name</label>
+            <div class="div-input">
               <input
-                class="modal-input"
                 type="text"
+                class="input-place"
                 id="user-name"
                 name="user-name"
-                maxlength="50"
-                autocomplete="name"
                 required
               />
-              <svg class="input-icon" width="18" height="24">
+              <svg width="18" height="24" class="vector-modal-icon">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
           </div>
-          <div class="input-box">
-            <label class="modal-label" for="phone"> Phone</label>
-            <div class="input-wrapper">
+          <div class="form-div">
+            <label for="id-phone" class="modal-label">Phone</label>
+            <div class="div-input">
               <input
-                class="modal-input"
-                id="phone"
                 type="tel"
-                name="user-phone"
-                autocomplete="tel"
-                maxlength="15"
+                class="input-place"
+                id="id-phone"
+                name="id_phone"
                 required
               />
-              <svg class="input-icon" width="18" height="24">
+              <svg width="18" height="24" class="vector-modal-icon">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
           </div>
-          <div class="input-box">
-            <label class="modal-label" for="email-form"> Email</label>
-            <div class="input-wrapper">
+
+          <div class="form-div">
+            <label for="id-email" class="modal-label">Email</label>
+            <div class="div-input">
               <input
-                class="modal-input"
-                type="email"
-                id="email-form"
-                name="user-email"
-                autocomplete="email"
-                maxlength="254"
+                type="text"
+                class="input-place"
+                id="id-email"
+                name="id_email"
                 required
               />
-              <svg class="input-icon" width="18" height="24">
+              <svg width="18" height="24" class="vector-modal-icon">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
           </div>
-          <div class="input-box-area">
-            <label class="modal-label" for="user-comment">Comment</label>
+
+          <div class="form-div textarea-div">
+            <label for="user-comment" class="modal-label">Comment</label>
+
             <textarea
-              class="input-comment"
               name="user-comment"
-              placeholder="Text input"
-              maxlength="200"
               id="user-comment"
-              required
+              class="modal-textarea"
+              placeholder="Text input"
             ></textarea>
           </div>
-          <div class="input-checkbox">
+          <div class="div-checkbox">
             <input
-              class="input-policy visually-hidden"
               type="checkbox"
-              value="true"
-              name="user-privacy"
               id="user-privacy"
+              name="user-privacy"
+              class="modal-checkbox visually-hidden"
               required
+              value="true"
             />
-            <label class="modal-label-check" for="user-privacy"
-              ><span class="custom-checkbox">
-                <svg class="check-icon" width="10" height="8">
-                  <use href="./images/icons.svg#icon-check"></use>
-                </svg> </span
-              >I accept the terms and conditions of the
-              <a class="link-police" href="#">Privacy Policy</a></label
-            >
+            <label for="user-privacy" class="modal-label">
+              <span class="checkbox-custom">
+                <svg width="10" height="8" class="svg-check">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="modal-policy">Privacy Policy</a>
+            </label>
           </div>
-          <button class="send-form-btn" type="submit">Send</button>
+
+          <button type="submit" class="modal-button">Send</button>
         </form>
       </div>
     </div>
